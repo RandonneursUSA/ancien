@@ -1,0 +1,249 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+#header {
+  background-position: center top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image: url("../images/bg01.jpg");
+}
+
+#navbar-top {
+  background: rgba(255,255,255,0.30) !important;
+}
+
+.navbar-brand {
+  color: #000;
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #aaa,
+    1px -1px 0 #aaa,
+    -1px 1px 0 #aaa,
+    1px 1px 0 #aaa;
+}
+
+.navbar-brand:hover {
+  color: #c01700;
+}
+
+.navbar-brand img {
+  max-width: 120px;
+  margin-right: 3rem;
+}
+
+#navbar-main {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-nav {
+  padding-right: .5rem;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link.is-active,
+.navbar .nav-link.active,
+.navbar .nav-link:active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+  background-color: #c01700;
+  color: #fff;
+}
+
+.navbar .navbar-toggler-icon {
+  color: #fff;
+}
+
+.dropdown-menu.show {
+  border: 3px solid #c01700;
+  background-color: #343a40;
+  margin: 0;
+}
+
+.dropdown-item a {
+  color: #eee;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover,
+.dropdown-item.active {
+  background-color: #c01700;
+}
+
+.dropdown-item a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Make menus drop down on hover */
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  border: 3px solid #c01700;
+  background-color: #343a40;
+  margin: 0;
+}
+
+
+.path-frontpage .title {
+  display: none;
+}
+
+.node__content {
+  font-size: .9rem;
+}
+
+
+/* Views */
+.rusa-ancien .views-element-container.block {
+  padding-bottom: 3em;
+}
+
+
+.rusa-ancien .grand-brevet-block .views-col {
+  padding: 0 1em;
+}
+
+.rusa-ancien .grand-brevet-block .views-field-field-image,
+.rusa-ancien .grand-brevet-block .views-field-field-logo,
+.rusa-ancien .grand-brevet-block .views-field-field-date {
+  text-align: center;
+}
+
+
+.rusa-ancien .rusa-list {
+  font-size: .9rem;
+}
+
+.rusa-ancien .rusa-list .item-list ul li {
+  margin-bottom: .6rem;
+  padding: 0;
+}
+
+.rusa-ancien .rusa-list .views-field-created,
+.rusa-ancien .rusa-list .views-field-field-date-range {
+  display: inline-block;
+  float: left;
+}
+
+.field--name-field-pbp-date .is-countdown,
+.rusa-ancien .rusa-list .views-field-created .field-content,
+.rusa-ancien .rusa-list .views-field-field-date-range .field-content {
+  text-align: center;
+  background-color: #eee;
+  border-radius: 8px;
+  padding: .3rem .4rem;
+  color: #000;
+}
+
+.rusa-ancien .rusa-list .views-field-field-date-range .field-content {
+  min-width: 200px;
+
+}
+
+.rusa-ancien .rusa-list .views-field-title,
+.rusa-ancien .rusa-list .views-field-field-url {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.rusa-ancien .rusa-list .views-field-field-url {
+  padding-top: .3rem;
+}
+
+/* Media queries */
+
+@media all and (max-width: 33em) {
+
+   .navbar-brand {
+    font-size: 1.8rem !important;
+    margin-top: .3rem;
+  }
+
+  .navbar-brand img {
+    max-width: 80px !important;
+    margin: 0;
+  }
+
+}     
+
+
+@media all and (min-width: 34em) and (max-width: 47em) {
+
+  #block-ancien-20thanniversary img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .views-field-field-logo img {
+		max-width: 120px;
+    height: auto;
+  }
+
+
+}
+
+@media all and (min-width: 48em) and (max-width: 61em) {
+
+  #block-ancien-20thanniversary img {
+    max-width: 120px;
+    height: auto;
+  }
+
+  .views-field-field-logo img {
+		max-width: 140px;
+    height: auto;
+  }
+
+ .navbar-brand img {
+    max-width: 80px;
+  }
+
+
+}
+
+@media all and (min-width: 62em) and (max-width: 74em) {
+
+  #block-ancien-20thanniversary img {
+    max-width: 160px;
+    height: auto;
+  }
+
+  .views-field-field-logo img {
+		max-width: 160px;
+    height: auto;
+  }
+
+ .navbar-brand img {
+    max-width: 100px;
+  }
+
+
+}
+
+@media all and (min-width: 75em) {
+
+  #block-ancien-20thanniversary img {
+		max-width: 220px;
+    height: auto;
+  }
+
+
+  .views-field-field-logo img {
+		max-width: 180px;
+    height: auto;
+  }
+
+  .navbar-brand img {
+    max-width: 120px;
+  }
+
+
+
+}
