@@ -1,6 +1,6 @@
 {
   "name": "rusa/ancien",
-  "type": "drupal-theme",
-  "version": "0.1",
+  "type": "drupal-custom-theme",
+  "license": "GPL-2.0-or-later",
   "description": "Drupal theme for RUSA"
 }
